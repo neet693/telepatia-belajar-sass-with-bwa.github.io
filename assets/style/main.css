@@ -1,0 +1,84 @@
+.btn-master, .btn-secondary, .btn-primary {
+  padding: 15px 26px 15px 26px;
+  border-radius: 10px;
+  font-weight: 600;
+  border: 0;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #563ad6;
+}
+
+.btn-primary:hover {
+  color: #563ad6;
+  background: #b4b5c9;
+}
+
+.btn-secondary {
+  color: #777790;
+  background: #eaeaf4;
+}
+
+body {
+  font-family: "Rubik", "sans-serif";
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.pricing {
+  background: #f9f9fb;
+  padding: 70px 0px 0px 70px;
+  margin-top: 70px;
+}
+
+.header {
+  color: #02044a;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: 100px;
+}
+
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #9b9cb7;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sales {
+  padding-top: 100px;
+}
+.sales .hero-image {
+  border-radius: 10px;
+}
+.sales .brand {
+  margin-top: 70px;
+  text-align: center;
+}
+.sales .brand .brand-logos {
+  width: 724px;
+}
+.sales .copywriting {
+  padding-left: 100px;
+}
+
+.navbar-tp {
+  padding-top: 30px;
+}
+.navbar-tp .navbar-nav li {
+  padding-left: 50px;
+}
+.navbar-tp .navbar-nav .active {
+  color: #563ad6 !important;
+  font-weight: 500 !important;
+}
+.navbar-tp .navbar-nav .nav-link {
+  color: #02044a;
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */

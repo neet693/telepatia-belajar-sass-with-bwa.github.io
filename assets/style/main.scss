@@ -1,0 +1,67 @@
+@import "./colors";
+@import "./buttons";
+@import "./typograph";
+
+body {
+  font-family: "Rubik", "sans-serif";
+}
+
+.navbar-brand {
+  font-weight: map-get($font-weights, semibold);
+}
+
+.pricing {
+  background: $lilpur;
+  padding: 70px 0px 0px 70px;
+  margin-top: 70px;
+}
+
+.header {
+  color: $navy;
+  font-weight: map-get($font-weights, semibold);
+  font-size: 46px;
+  line-height: 60px;
+  margin-top: 100px;
+}
+.description {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: $newpur;
+  font-weight: map-get($font-weights, regular);
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.sales {
+  padding-top: 100px;
+  .hero-image {
+    border-radius: 10px;
+  }
+  .brand {
+    margin-top: 70px;
+    text-align: center;
+    .brand-logos {
+      width: 724px;
+    }
+  }
+
+  .copywriting {
+    padding-left: 100px;
+  }
+}
+.navbar-tp {
+  padding-top: 30px;
+  .navbar-nav {
+    li {
+      padding-left: 50px;
+    }
+    .active {
+      color: $purple !important;
+      font-weight: map-get($font-weights, medium) !important;
+    }
+    .nav-link {
+      color: $navy;
+      font-weight: map-get($font-weights, regular);
+    }
+  }
+}
